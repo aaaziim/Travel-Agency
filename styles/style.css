@@ -12,7 +12,7 @@ body{
     color: #fff;
     border: none;
     border-radius: 8px;
-    padding: 25px 105px;
+    padding: 20px 25px;
     font-size: 1.25rem;
     font-weight: 900;
 }
@@ -22,17 +22,20 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 .textCenter{
     text-align: center;
 }
 
 .sectionTitle{
-
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .sectionDescription{
-
+    font-size: 1rem;
+    color: var(--secondary-color);
 }
 
 /* Header Style */
@@ -119,7 +122,19 @@ nav > .logo img{
 /* Banner Style End */
 
 
+/* Popular Tour Start */
 
+.popularToursContainer{
+    margin: 50px auto;
+}
+.sectionList li{
+    color: #131318;
+    margin-bottom: 20px;
+}
+.popularToursImage img{
+    width: 100%;
+}
+/* Popular Tour End */
 
 
 
@@ -153,5 +168,8 @@ nav > .logo img{
     
 .flexCenterVhVw{
     flex-direction: column;
+}
+body{
+   padding: 20px;
 }
  }
