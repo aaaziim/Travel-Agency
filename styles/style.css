@@ -6,6 +6,8 @@
 header, main{
     max-width: 1170px;
     margin: 0 auto;
+  font-family: "Mulish", sans-serif;
+
 }
 .btnPrimary{
     background-color: var(--primary-color);
