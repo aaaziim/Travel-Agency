@@ -36,6 +36,7 @@ body{
 .sectionDescription{
     font-size: 1rem;
     color: var(--secondary-color);
+    padding: 20px 100px;
 }
 
 /* Header Style */
@@ -82,8 +83,7 @@ nav > .logo img{
     padding: 20px;
 }
 
-.bannerText{
-    
+.sectionText{
     max-width: 576px;
    
 }
@@ -137,7 +137,85 @@ nav > .logo img{
 /* Popular Tour End */
 
 
+/* destination start */
 
+.destination{
+    margin: 0 auto;
+}
+
+#img-1 {
+    grid-area: img1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/maldives.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-2 {
+    grid-area: img2;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/indonesia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-3 {
+    grid-area: img3;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Srilanka.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-4 {
+    grid-area: img4;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/North\ America.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-5 {
+    grid-area: img5;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Kashmir.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-6 {
+    grid-area: img6;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Bangladesh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-7 {
+    grid-area: img7;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Bandarban.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destinationImageContainer {
+    display: grid;
+    grid-template-areas: 
+        "img1 img1 img1 img1 img2 img2 img2 img2"
+        "img3 img3 img4 img4 img4 img4 img5 img5"
+        "img6 img6 img6 img7 img7 img7 img7 img7";
+    gap: 20px;
+}
+
+.destinationImage {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    border-radius: 20px;
+    background-size: cover;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+
+/* destination end */
 
 
 
@@ -171,5 +249,18 @@ nav > .logo img{
 }
 body{
    padding: 20px;
+}
+
+.destinationImageContainer {
+    
+    grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+    
 }
  }
