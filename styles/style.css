@@ -36,7 +36,7 @@ body{
 .sectionDescription{
     font-size: 1rem;
     color: var(--secondary-color);
-    padding: 20px 100px;
+   
 }
 
 /* Header Style */
@@ -253,10 +253,12 @@ nav > .logo img{
 /* Why Choose Us End */
 
 
+/* perfectPlaceContainer start */
 
 
-
-
+.perfectPlaceContainer{
+    margin-top: 50px;
+}
 
 
 
