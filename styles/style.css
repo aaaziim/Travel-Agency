@@ -17,6 +17,9 @@ body{
     font-weight: 900;
 }
 
+img{
+    width: 100%;
+}
 
 .flexCenterVhVw{
     display: flex;
@@ -261,6 +264,50 @@ nav > .logo img{
 }
 
 
+/* perfectPlaceContainer end */
+
+/* NewsLetter Start  */
+
+.newsletterContainer{
+    margin: 50px 0px;
+}
+
+.newsletterBox{
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.newsletterBox  input{
+    padding: 10px 20px;
+    background-color: #13131818;
+    border: 0;
+    border-radius: 8px;
+
+}
+.newsletterBox  .btnPrimary{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.discount{
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    right: -200px;
+    top: -200px;
+    rotate: -30deg;
+}
+/* NewsLetter End  */
 
 
 
