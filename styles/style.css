@@ -218,7 +218,39 @@ nav > .logo img{
 /* destination end */
 
 
+/* Why Choose Us Start */
 
+.whyUsCardContainer{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-items: center;
+}
+.whyUsCard{
+    padding: 20px;
+    border-radius: 10px;
+}
+.cardTitle{
+    font-size: 20px;
+    font-weight: 900;
+}
+#card1{
+    background-color: #fbb4632f ;
+    
+}
+#card2{
+    background-color: #29cdf63b ;
+    
+}
+#card3{
+    background-color: #e9444434;
+   
+}
+.whyUsCard:nth-child(3) {
+    grid-column: span 2;   
+}
+/* Why Choose Us End */
 
 
 
@@ -252,7 +284,6 @@ body{
 }
 
 .destinationImageContainer {
-    
     grid-template-areas: 
         "img1"
         "img2"
@@ -263,4 +294,13 @@ body{
         "img7"
     
 }
+
+.whyUsCardContainer{
+    grid-template-columns: 1fr;
+   
+}
+.whyUsCard:nth-child(3) {
+    grid-column: span 1;   
+}
+
  }
