@@ -309,7 +309,12 @@ nav > .logo img{
     rotate: -30deg;
 }
 /* NewsLetter End  */
+/* bookNow start */
 
+.bookNow{
+    margin: 50px 0px;
+}
+/* bookNow End */
 
 /* Footer Start */
 footer{
@@ -358,7 +363,38 @@ hr{
 .flexCenterVhVw{
     flex-direction: column;
 }
-body{
+header, main{
+   padding: 20px;
+}
+
+.destinationImageContainer {
+    grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+    
+}
+
+.whyUsCardContainer{
+    grid-template-columns: 1fr;
+   
+}
+.whyUsCard:nth-child(3) {
+    grid-column: span 1;   
+}
+
+ }
+
+ @media screen and (min-width:600px) and (max-width:992px){
+    
+.flexCenterVhVw{
+    flex-direction: column;
+}
+header, main{
    padding: 20px;
 }
 
